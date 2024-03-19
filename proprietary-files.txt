@@ -343,16 +343,6 @@ vendor/firmware/lmi_tele_rohm_ois.prog
 vendor/firmware/lmi_wide_ois_ST.coeff
 vendor/firmware/lmi_wide_ois_ST.prog
 
-# Camera motor
-vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
-vendor/etc/init/init.lmi.rc
-vendor/etc/step_motor/mi_camera_config.xml
-vendor/lib64/hw/vendor.xiaomi.hardware.motor@1.0-impl.so
-vendor/lib64/libmivendor_module_calibration.so
-vendor/lib64/libmivendor_module_hall.so
-vendor/lib64/libmivendor_module_motor.so
-vendor/lib64/mi.motor.daemon.so
-
 # Charger (HVDCP)
 vendor/bin/hvdcp_opti
 vendor/bin/init.qti.chg_policy.sh
@@ -362,6 +352,9 @@ vendor/etc/charger_fstab.qti
 # Charger (Mi Turbo Charge)
 vendor/bin/batterysecret
 vendor/etc/init/init.batterysecret.rc
+
+# Display
+vendor/etc/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml
 
 # Fingerprint
 vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
