@@ -131,7 +131,6 @@ vendor/lib64/com.qti.feature2.sr.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
 vendor/lib64/libMIAIHDRhvx_interface.so
-vendor/lib64/libMegviiFacepp-0.5.2.so
 vendor/lib64/libSNPE.so
 vendor/lib64/libalAILDC.so
 vendor/lib64/libalLDC.so
@@ -158,7 +157,6 @@ vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
 vendor/lib64/libhta.so
 vendor/lib64/libipebpsstriping.so
-vendor/lib64/libmegface.so
 vendor/lib64/libmialgo_ie_preview.so
 vendor/lib64/libmialgo_image_colourkeeping.so
 vendor/lib64/libmialgo_rfs.so
@@ -353,7 +351,6 @@ vendor/etc/camera/eyelineblush.cng
 vendor/etc/camera/goturn_search_dsp.dlc
 vendor/etc/camera/goturn_target_dsp.dlc
 vendor/etc/camera/hdrd_ui9_params.config
-vendor/etc/camera/megviifacepp_0_5_2_model
 vendor/etc/camera/mibokeh_855_opencl.bin
 vendor/etc/camera/mibokeh_855_parameter.bin
 vendor/etc/camera/model.dat
@@ -587,30 +584,6 @@ vendor/etc/sensors/judge_calibrated.json
 vendor/etc/sensors/sensor_diag.cfg
 vendor/etc/sensors/sns_reg_config
 vendor/etc/elliptic_sensor.xml
-
-# Thermal configs
-vendor/etc/thermal-4k.conf
-vendor/etc/thermal-8k.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-class0.conf
-vendor/etc/thermal-india-camera.conf
-vendor/etc/thermal-india-normal.conf
-vendor/etc/thermal-india-per-camera.conf
-vendor/etc/thermal-india-per-normal.conf
-vendor/etc/thermal-map-india.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-navigation.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-per-camera.conf
-vendor/etc/thermal-per-class0.conf
-vendor/etc/thermal-per-navigation.conf
-vendor/etc/thermal-per-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-region-map.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermald-devices.conf
 
 # Vibrator firmware
 vendor/firmware/aw8697_haptic.bin
