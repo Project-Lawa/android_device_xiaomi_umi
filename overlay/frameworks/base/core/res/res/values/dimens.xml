@@ -21,16 +21,19 @@
     <!-- Height of the status bar.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_default">32dp</dimen>
-    <dimen name="status_bar_height_portrait">35dp</dimen>
-    <dimen name="status_bar_height_landscape">32dp</dimen>
+    <dimen name="status_bar_height_default">90px</dimen>
+    <dimen name="status_bar_height_landscape">28dp</dimen>
+    <dimen name="status_bar_height_portrait">@dimen/status_bar_height_default</dimen>
 
-    <!-- Radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">144px</dimen>
+    <!-- Adjust the icon padding in status bar for rounded corners -->
+    <dimen name="rounded_corner_content_padding">49.5px</dimen>
+
+    <!-- Default radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">128px</dimen>
 
     <!-- Default adjustment for the software rounded corners since corners are not perfectly
         round. This value is used when retrieving the "radius" of the rounded corner in cases
         where the exact bezier curve cannot be retrieved.  This value will be subtracted from
         rounded_corner_radius to more accurately provide a "radius" for the rounded corner. -->
-    <dimen name="rounded_corner_radius_adjustment">40px</dimen>
+    <dimen name="rounded_corner_radius_adjustment">26px</dimen>
 </resources>
